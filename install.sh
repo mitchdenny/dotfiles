@@ -1,2 +1,5 @@
 #!/bin/bash
-echo `date` >> $HOME/dotfiletime.txt
+./brew/install.sh
+./go/install.sh
+./node/install.sh
+./vscode/install.sh
