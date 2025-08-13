@@ -13,3 +13,16 @@ export EDITOR="code"
 
 # Set a custom prompt with the directory revealed (alternatively use https://starship.rs)
 PS1="\W \[\e]0;\w\a\]$PS1"
+
+# omarchy environment
+alias omarchyinstall='wget -qO- https://omarchy.org/install | bash'
+
+# dotnet environment
+alias dotnetinstall='curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin'
+export DOTNET_ROOT=$HOME/.dotnet
+export PATH="$DOTNET_ROOT:$HOME/.aspire/bin:$PATH"
+
+# aspire environment
+alias aspireinstall='curl -sSL https://aspire.dev/install.sh | bash'
+alias aspireinstalldev='curl -sSL https://aspire.dev/install.sh | bash -s -- -q dev'
+alias aspireinstallpr='curl -sSL https://raw.githubusercontent.com/dotnet/aspire/refs/heads/main/eng/scripts/get-aspire-cli-pr.sh | bash -s'
