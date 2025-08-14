@@ -6,7 +6,7 @@ source ~/.local/share/omarchy/default/bash/rc
 #
 # Make an alias for invoking commands you use constantly
 # alias p='python'
-alias dotfiles='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='git --git-dir=$HOME/Code/dotfiles/ --work-tree=$HOME'
 
 # Use VSCode instead of neovim as your default editor
 export EDITOR="code"
