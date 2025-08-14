@@ -26,3 +26,6 @@ export PATH="$DOTNET_ROOT:$HOME/.aspire/bin:$PATH"
 alias aspireinstall='curl -sSL https://aspire.dev/install.sh | bash'
 alias aspireinstalldev='curl -sSL https://aspire.dev/install.sh | bash -s -- -q dev'
 alias aspireinstallpr='curl -sSL https://raw.githubusercontent.com/dotnet/aspire/refs/heads/main/eng/scripts/get-aspire-cli-pr.sh | bash -s'
+
+alias vscodeinstall='$HOME/.scripts/vscodeinstall.sh'
+alias vscodeextensioninstall='$HOME/.scripts/vscodeextensionsinstall.sh'
