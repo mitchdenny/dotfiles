@@ -27,5 +27,10 @@ alias aspireinstall='curl -sSL https://aspire.dev/install.sh | bash'
 alias aspireinstalldev='curl -sSL https://aspire.dev/install.sh | bash -s -- -q dev'
 alias aspireinstallpr='curl -sSL https://raw.githubusercontent.com/dotnet/aspire/refs/heads/main/eng/scripts/get-aspire-cli-pr.sh | bash -s'
 
+# vscode
 alias vscodeinstall='$HOME/.scripts/vscodeinstall.sh'
 alias vscodeextensioninstall='$HOME/.scripts/vscodeextensionsinstall.sh'
+
+# starship
+alias starshipinstall='curl -sS https://starship.rs/install.sh' | sh
+eval "$(starship init bash)"
