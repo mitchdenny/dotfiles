@@ -14,6 +14,9 @@ export EDITOR="code"
 # Set a custom prompt with the directory revealed (alternatively use https://starship.rs)
 PS1="\W \[\e]0;\w\a\]$PS1"
 
+# debugging
+alias workspacedebug='$HOME/.scripts/workspacedebug.sh'
+
 # omarchy environment
 alias omarchyinstall='wget -qO- https://omarchy.org/install | bash'
 
